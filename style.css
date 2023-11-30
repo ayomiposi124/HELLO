@@ -1,0 +1,111 @@
+body{
+    background-color: white;
+}
+
+.row{
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 3px white;
+    margin: auto;
+    margin-top: 5%;
+    width: 60%;
+}
+
+.image-side{
+    flex: 40%;
+    justify-content: center;
+    background-color: rgb(82,82, 245);
+    border: 6px 0px 0px 6px;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 5em;
+
+}
+
+.logo-img{
+    width: 3em;
+}
+
+.logo span{
+    color: white;
+}
+
+.logo h2{
+    color: black;
+}
+
+.form-side{
+    flex: 60%;
+    padding: 2em;
+}
+
+.title{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form{
+    text-align: justify;
+    padding-left: 1em;
+}
+.form-side .form-input{
+    width: 90%;
+    padding: 1em 0.5em;
+}
+
+
+.form-side{
+    width: 100%;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    /* border-color: rgb(168, 166, 166); */
+    /* border-style: solid; */
+    padding: 15px 3px;
+    font-size: 14px;
+}
+
+.form-side:focus{
+    outline: none;
+}
+.form-control{
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 1px solid black;
+    width: 90%;
+}
+
+.btn{
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    font-size: medium;
+    border-radius: 5px;
+    
+}
+
+.content{
+    text-align: center;
+    padding-top: 1em;
+}
+
+@media screen and (max-width:750px) {
+    .image-side{
+        display: none;
+    }
+    
+
+.form-side{
+    flex: 100%;
+}
+.row{
+    width: 80%;
+}
+
+}
+
+
